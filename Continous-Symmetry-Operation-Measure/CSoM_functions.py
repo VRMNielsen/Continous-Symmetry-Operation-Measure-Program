@@ -438,7 +438,7 @@ def Save_Results(savepath,Point_group_name,point_group_symmetry_names, deviation
         # Write a new row with the name and value
         writer.writerow(['{}'.format(Point_group_name), f"{round(sum(deviations)/len(deviations), 3)}"])
 
-    with open(directory_path + '\\' + 'Details_' + os.path.basename(savepath).split('.')[0] + '.csv', 'w',newline='') as file:
+    with open(directory_path + '\\' + 'Details_'+Point_group_name+ '_' + os.path.basename(savepath).split('.')[0] + '.csv', 'w',newline='') as file:
         writer = csv.writer(file)
 
         writer.writerow(['Details:'])
