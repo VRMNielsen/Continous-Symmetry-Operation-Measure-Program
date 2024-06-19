@@ -63,6 +63,8 @@ Examples of input files are provided in this recepoire.
 
 With these inputs the program can be run as intended and we recommend to run all other inputs with their default values. However, some manual changes can be done if so desired. These include manual centering and a deactivaton of the autonoumous assignment of the principle axis:
 
+# 5. Additional Settings
+
 It is not recommended to change the default settings
 
 **Manual inputs for the optimization iterations of the principle axes**
