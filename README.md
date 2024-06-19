@@ -51,7 +51,7 @@ The structure file required to run the program is an .xyz file commonly used and
 
 **Inputs for the structure file is required:**
  + mypath: The path to the folder where your structure file is located.
- + all_structure: Select True if all files in the folder is to be analysed. Select False if only selected files are to be analyzed.
+ + all_structure: Select True if all files in the folder is to be analysed. Select False if only selected files are to be analysed.
  + structures_selected: If all files are not to be analysed write the names of files to be analysed here. e.g. 'filename.xyz'
 
 
@@ -59,7 +59,7 @@ The structure file required to run the program is an .xyz file commonly used and
 + point_group_names: provide all pointgroups that are to be used in this format. point_group_names = [pointgroup_C2, pointgroup_D3h, ... ]. In this case the pointgroups C2, and D3h will be evaluated on the coordination file.  
 + if all pointgroups available is to be used, then the following line can be used: point_group_names = [os.path.basename(os.path.join(Path_To_Symmetry_Operations,f)).split('.')[0] for f in os.listdir(Path_To_Symmetry_Operations) if os.path.isfile(os.path.join(Path_To_Symmetry_Operations, f))]
 
-With these inputs the program can be run as intended and we recommend to run all other inputs with their default values. However, some manual changes can be done if so desired. These include manual centering and a deactivaton of the autonoumous assignment of the principle axis:
+With these inputs the program can be run as intended and we recommend to run all other inputs with their default values. However, some manual changes can be done if so desired. These include manual centering and a deactivaton of the autonoumous assignment of the principle axis. These are detailed in 6. Additional settings.
 
 # 5. Outputs
 Two folders of Files are outputted.
