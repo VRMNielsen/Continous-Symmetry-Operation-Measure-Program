@@ -62,6 +62,18 @@ The structure file required to run the program is an .xyz file commonly used and
 With these inputs the program can be run as intended and we recommend to run all other inputs with their default values. However, some manual changes can be done if so desired. These include manual centering and a deactivaton of the autonoumous assignment of the principle axis:
 
 # 5. Outputs
+Two folders of Files are outputted.
+
+**SymetryOperationDeviations:** A folder is created for each input file with the calculated symmetry deviation values. Each folder contains three types of files: 
++ "results_filename" contains the symmetry deviation for all point groups evaluated.
++ "pointgroup_O_on_filename" contains the symmetry deviations on each individual symmetry operation within the pointgroup O on the coordination structure.
++ "Details_filename" with parameters used for the evaluation. 
+Furthermore, a file with the name: "all_results" is outputed in the SymetryOperationDeviations folder, if multiple structure files are used at the same time. This file contains the condenced values calculated.
+
+**SymmetryOperatedStructures:** A folder is created for each point group on each structure evaluated. In it the newly generated structure files are provided. Three types of files are saved:
++ filename_o: contains the original structure file oriented with the principle axis of the evaluated point group going through the [0,0,1] axis.
++ filename_SymOpi_O: contains the oriented structure file that has not been operated with the symmetry operation, O.
++ filename_all: contains the coordinates of all generated files condensed in one file.
 
 # 6. Additional Settings
 
