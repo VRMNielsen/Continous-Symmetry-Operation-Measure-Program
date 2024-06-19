@@ -44,7 +44,19 @@ To run the code the following packages need to be installed:
 
 
 # 4. How to Use
-When the program is open in a python environment 
+When the program is open in a python environment, it can be run by inserting the required inputs. Here we go through all inputs as they are written in the program file:
+
+The structure file required to run the program is an .xyz file commonly used and generated with programs such as VESTA: https://jp-minerals.org/vesta/en/download.html. It contains the labels and coordinates of all atoms in the complex
+**The central atom in the complex, is the first atom listed.** This is the coordinate that will be used as Origo in the calculations, if a manual coordinate is not selected.
+
+Examples of input files are provided in this recepoire. 
+
+Inputs for the structure file is required:
+ + mypath: the path to the folder where your structure file is located.
+ + all_structure
+ + structures_selected
+
+
 
 
 # 5. Credits and how to cite
