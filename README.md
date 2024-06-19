@@ -1,9 +1,13 @@
 # Continous Symmetry Operation Measure
 A program to evaluate the point group symmetry of a coordinating structure.
 The program is puplished in association with the following paper in Journal of Physical Chemistry A.
+
 Title:
+
 Authors: 
+
 DOI:
+
 
 # 2. Description
 The program is intended as a tool in coordination chemistry to evaluate the point group symmetry of a coordination complex.
@@ -23,14 +27,14 @@ The program therefore need no formal installation if Spyder is installed: https:
 
 To run the code the following packages need to be installed:
 
-\begin{itemize}
-  \item numpy
-  \item math
-  \item re
-  \item pandas
-  \item scipy
-  \item datetime
-\end{itemize}
+
++ numpy
++ math
++ re
++ pandas
++ scipy
++ datetime
+
 
 
 
