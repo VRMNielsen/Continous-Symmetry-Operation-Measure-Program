@@ -61,7 +61,9 @@ The structure file required to run the program is an .xyz file commonly used and
 
 With these inputs the program can be run as intended and we recommend to run all other inputs with their default values. However, some manual changes can be done if so desired. These include manual centering and a deactivaton of the autonoumous assignment of the principle axis:
 
-# 5. Additional Settings
+# 5. Outputs
+
+# 6. Additional Settings
 
 It is not recommended to change the default settings
 
@@ -84,7 +86,7 @@ It is not recommended to change the default settings
 cut_off_distance: False is default, meaning that the coordinates of all atoms in the input .xyz file is analysed. If True is selected a cutoff from the center removes all atoms with a distance further away than the cutoff from the distance. This is a hard cutoff and care should be taken in the ussage of this function.
 cutoff: The cutoff distance selected with respect to the units used in the .xyz file.
 
-# 5. Credits and how to cite
+# 7. Credits and how to cite
 
 
 
