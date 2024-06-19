@@ -1,0 +1,14 @@
+Details:
+Manual_Zaxis,False
+N_input_zaxis,10
+""
+""
+Optimized Principle Axis:
+Optimized Z-axis,[ 0.01868239  0.02489103 -0.99951559]
+Optimized angle to xy-plane,-0.11891344301388285
+Rotation Matrix,"[[ 0.2774848  -0.96054836  0.01868239]
+ [-0.96054736 -0.27700038  0.02489103]
+ [-0.01873401 -0.0248522  -0.99951559]]"
+N_input_angles,2
+Optimized angle to xy-plane,-0.11891344301388285
+ManualCentering,False
