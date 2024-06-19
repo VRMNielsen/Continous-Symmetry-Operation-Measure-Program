@@ -3,7 +3,6 @@
 # =============================================================================
 import os
 import numpy as np
-from datetime import datetime
 dirname = os.path.dirname(__file__)
 os.chdir(dirname)
 Path_To_Symmetry_Operations = os.path.join(dirname, 'Operations')
@@ -26,9 +25,9 @@ Load molecular structure:
 """
 
 #Select folder where the structures are to be analysed:
-mypath = r'C:\Users\Villads\Documents\Project_SymmetryDeviation\TimeCalculations\Test'
+mypath = r'C:\Users\Villads\Documents\Project_SymmetryDeviation\ExampleUsage_on_LnAquaIon'
 
-all_structure = False #Default is False.
+all_structure = True #Default is False.
 structures_selected = [
              'NdODA3.xyz',
              ]
