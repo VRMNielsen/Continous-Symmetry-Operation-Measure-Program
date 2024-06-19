@@ -47,9 +47,7 @@ To run the code the following packages need to be installed:
 When the program is open in a python environment, it can be run by inserting the required inputs. Here we go through all inputs as they are written in the program file:
 
 The structure file required to run the program is an .xyz file commonly used and generated with programs such as VESTA: https://jp-minerals.org/vesta/en/download.html. It contains the labels and coordinates of all atoms in the complex
-**The central atom in the complex, is the first atom listed.** This is the coordinate that will be used as Origo in the calculations, if a manual coordinate is not selected.
-
-Examples of input files are provided in this recepoire. 
+**The central atom in the complex, is the first atom listed.** This is the coordinate that will be used as Origo in the calculations, if a manual coordinate is not selected. Examples of input files are provided in the recepoire. 
 
 **Inputs for the structure file is required:**
  + mypath: The path to the folder where your structure file is located.
@@ -83,7 +81,7 @@ It is not recommended to change the default settings
 + ManualCentering: Default is "False", which means that the centering of the complex will be the first atom listed in the input .xyz file. If "True" is selected, then a manual input for the centering can be used. Here the x0, y0, z0 provide the coordinate for this.
 
 **Possible inclusion of a cutoff of what to include in the point group analysis**
-cut_off_distance: False is default, then the file 
+cut_off_distance: False is default, meaning that the coordinates of all atoms in the input .xyz file is analysed. If True is selected a cutoff from the center removes all atoms with a distance further away than the cutoff from the distance. This is a hard cutoff and care should be taken in the ussage of this function.
 cutoff: The cutoff distance selected with respect to the units used in the .xyz file.
 
 # 5. Credits and how to cite
