@@ -8,8 +8,12 @@ Authors: Villads R. M. Nielsen, Boris Le Guennic, and Thomas Just Sørensen*
 
 DOI: https://doi.org/10.1021/acs.jpca.4c00801
 
+# 0. Contact
+For suggestions, bugs, or questions please dont hesitate to send an email to Villads R M Nielsen. 
 
-# 2. Description
+Mail: vini@chem.ku.dk
+
+# 1. Description
 The program is intended as a tool in coordination chemistry to evaluate the point group symmetry of a coordination complex.
 The coordination complex is given as file containing the coordinates and labels for all atoms in the coordination complex. 
 The first atom in the series is used to center the complex such that it lies in origo.
@@ -22,7 +26,7 @@ The output of the program is the symmetry deviation values provided for each sel
 
 A detailed description is provided in the paper associated with this program: https://doi.org/10.1021/acs.jpca.4c00801
 
-# 3. How to install
+# 2. How to install
 The Program is written in the python environment Spyder and it is intended to be used in this or a similar coding environment. 
 The program therefore need no formal installation if Spyder is installed: https://www.spyder-ide.org/
 
@@ -43,7 +47,7 @@ To run the code the following packages need to be installed:
 + datetime
 
 
-# 4. How to Use
+# 3. How to Use
 When the program is open in a python environment, it can be run by inserting the required inputs. Here we go through all inputs as they are written in the program file:
 
 The structure file required to run the program is an .xyz file commonly used and generated with programs such as VESTA: https://jp-minerals.org/vesta/en/download.html. It contains the labels and coordinates of all atoms in the complex
@@ -61,7 +65,7 @@ The structure file required to run the program is an .xyz file commonly used and
 
 With these inputs the program can be run as intended and we recommend to run all other inputs with their default values. However, some manual changes can be done if so desired. These include manual centering and a deactivaton of the autonoumous assignment of the principle axis. These are detailed in 6. Additional settings.
 
-# 5. Outputs
+# 4. Outputs
 Two folders of Files are outputted.
 
 **SymetryOperationDeviations:** A folder is created for each input file with the calculated symmetry deviation values. Each folder contains three types of files: 
@@ -75,7 +79,7 @@ Furthermore, a file with the name: "all_results" is outputed in the SymetryOpera
 + filename_SymOpi_O: contains the oriented structure file that has not been operated with the symmetry operation, O.
 + filename_all: contains the coordinates of all generated files condensed in one file.
 
-# 6. Additional Settings
+# 5. Additional Settings
 
 It is not recommended to change the default settings
 
@@ -98,9 +102,10 @@ It is not recommended to change the default settings
 cut_off_distance: False is default, meaning that the coordinates of all atoms in the input .xyz file is analysed. If True is selected a cutoff from the center removes all atoms with a distance further away than the cutoff from the distance. This is a hard cutoff and care should be taken in the ussage of this function.
 cutoff: The cutoff distance selected with respect to the units used in the .xyz file.
 
-# 7. Credits and how to cite
+# 6. Credits and how to cite
 If you have used this program please cite:
 https://doi.org/10.1021/acs.jpca.4c00801
+
 
 
 
