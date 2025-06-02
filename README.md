@@ -7,7 +7,7 @@ To recieve program, please fill out this Google Form: https://docs.google.com/fo
 After filling in your email, you will recieve the Download Link.
 
 
-# 0. Detailed description:
+# 0. Scientific Description:
 The program is puplished in association with the following paper in Journal of Physical Chemistry A. This paper contains a detailed description of the program.
 
 Title: Evaluation of Point Group Symmetry in Lanthanide(III) Complexes: A New Implementation of a Continuous Symmetry Operation Measure with Autonomous Assignment of the Principal Axis
@@ -21,7 +21,7 @@ For suggestions, bugs, or questions please dont hesitate to send an email to Vil
 
 Mail: Villads.roskjaer@gmail.com
 
-# 2. Description
+# 2. Description of how to use
 The program is intended as a tool in coordination chemistry to evaluate the point group symmetry of a coordination complex.
 The coordination complex is given as file containing the coordinates and labels for all atoms in the coordination complex. 
 The first atom in the series is used to center the complex such that it lies in origo.
