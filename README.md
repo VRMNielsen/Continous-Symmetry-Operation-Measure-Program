@@ -4,12 +4,11 @@ A program to evaluate the point group symmetry of a coordinating structure.
 To recieve program, please fill out this Google Form: https://docs.google.com/forms/d/e/1FAIpQLSeoS0CzofLt9oJ-GFg1QERzyc-LdR6Fmgq3lO8Emn5_8fcXGQ/viewform?usp=sharing&ouid=109732050558334409492
 
 
-
-
-
 After filling in your email, you will recieve the Download Link.
 
-The program is puplished in association with the following paper in Journal of Physical Chemistry A.
+
+**Detailed description**
+The program is puplished in association with the following paper in Journal of Physical Chemistry A. This paper contains a detailed description of the program.
 
 Title: Evaluation of Point Group Symmetry in Lanthanide(III) Complexes: A New Implementation of a Continuous Symmetry Operation Measure with Autonomous Assignment of the Principal Axis
 
