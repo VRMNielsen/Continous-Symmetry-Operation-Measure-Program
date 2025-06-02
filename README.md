@@ -1,6 +1,11 @@
 # Continous Symmetry Operation Measure
 A program to evaluate the point group symmetry of a coordinating structure.
+
 To recieve program, please fill out this Google Form: https://docs.google.com/forms/d/e/1FAIpQLSeoS0CzofLt9oJ-GFg1QERzyc-LdR6Fmgq3lO8Emn5_8fcXGQ/viewform?usp=sharing&ouid=109732050558334409492
+
+
+
+
 
 After filling in your email, you will recieve the Download Link.
 
